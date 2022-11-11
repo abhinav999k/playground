@@ -34,7 +34,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Job start slack notification
-        uses: act10ns/slack@v1
+        uses: act10ns/slack@v2
         with:
           status: 'START'
         env: 
